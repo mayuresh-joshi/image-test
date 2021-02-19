@@ -1,6 +1,6 @@
 # ADAsure Accessibility Audit Tool 
 #### INTRODUCTION:
-ADAsure Accessibility Audit Tool  is a GUI tool developed in Java, using technologies like Selenium for Automation of testing and Axe-Core APIs for performing accessibility tests on webpages. It provides a simple and intuitive user interface to assist the user in testing and generating reports. These report helps the user to fix the violation of any desired website. The tool aids developers in identifying accessibility problems and supports WCAG 2.0, WCAG 2.1, Section 508 and AXE best standards. The frontend of this tool is developed using Java Swing in Eclipse IDE.
+ADAsure Accessibility Audit Tool  is a GUI tool developed in Java, using technologies like Selenium for Automation of testing and Axe-Core APIs for performing accessibility tests on webpages. It provides a simple and intuitive user interface to assist the user in testing and generating reports. These report helps the user to fix the violation of any desired website. The tool aids developers in identifying accessibility problems and also supports WCAG 2.0, WCAG 2.1, Section 508 and AXE best standards. The frontend of this tool is developed using Java Swing in Eclipse IDE.
 
 #### PRE-REQUISITE:
 Eclipse IDE
@@ -18,7 +18,7 @@ To import the code zip file in Eclipse IDE:-
 
 File -> Import -> General -> Existing Projects into Workspace -> Next
 
-Select Root directory (browse the unzipped prooject folder)
+Select Root directory (browse the unzipped project folder)
 
 Finish
 
