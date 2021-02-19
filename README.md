@@ -100,7 +100,7 @@ The reports are saved to the desired location in two formats- json file and exce
  JSON FILE:
  <img src='./javautility1screenshots/json.png'>
 EXCEL FILE:
- <img src='./javautility1screenshots/json.png'> 
+ <img src='./javautility1screenshots/excel.png'> 
 
 10. Export All Reports
  <img src='./javautility1screenshots/allreports.png'> 
