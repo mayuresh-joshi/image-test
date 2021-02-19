@@ -57,6 +57,7 @@ Run “ApplicationRunner.java” file using the green play button provided by Ec
 1. Main Page 
  <img src='./javautility1screenshots/mainpage.png'>
 This is the main page of the tool. The user is able to view this page after running the application. 
+
 2. Base URL
  <img src='./javautility1screenshots/baseurl.png'>
 The website URL that is required to be audited should be entered in the text box. Make sure the URL is valid and in correct format. Click the "Audit" Button to analyse the website URL. 
@@ -64,6 +65,7 @@ The website URL that is required to be audited should be entered in the text box
 3. Audit the website
  <img src='./javautility1screenshots/auditwebsite.png'>
 After clicking the "Audit" button the user will be able to see all crawled URLs that is all the URLs that are present under the main URL. These URLs are displayed in the "Crawled Pages" section. The Number of Crawled URLs are displayed at the bottom.
+
 4. Analyze URL
  <img src='./javautility1screenshots/analyzeurl.png'>
 Select any URL which needs to be analyzed. Click on the "Analyze" button. A prompt box will pop up and ask the user's permission to start analyzing the selected URL. If the user wishes to continue then select "Yes" else click on "No". Alternatively, the user can also double click on the URL from the list to start the analysis.  
@@ -71,15 +73,19 @@ Select any URL which needs to be analyzed. Click on the "Analyze" button. A prom
 5. Violations
  <img src='./javautility1screenshots/violations.png'> 
 After clicking "Yes", all the violations of the selected URL will be loaded and listed down in the "Violations" section. Here, the user can view the Compliance, Success Criterion, Impact, Category, Description, HTML element, Target element and Help URL of the violation. One row in the violation table corresponds to one violation in the analyzed page. The current URL which is analyzed and the Total Violations found are displayed below. 
+
 6. Sorting and Filtering Violations
+
 Before Filtering
  <img src='./javautility1screenshots/beforefiltering.png'> 
 Right Click on the column heading to get the filtering option. The user can select any parameter to filter the data of the violation table.
 After Filtering
  <img src='./javautility1screenshots/afterfiltering.png'> 
+ 
 After clicking "Apply" the user will be able to see only the violations of the selected parameter. 
 Sorting- Click on the column heading once to sort the data in ascending order. Click on the column heading again to sort the data in descending order.  
 This feature can be applied on all columns.
+
 7. Help 
  <img src='./javautility1screenshots/help.png'> 
 If the user wants to know more about any violation then select the desired violation. Click on "Show Help" button. In the "Help" section, additional information regarding the violation will be displayed with an help URL which will assist the user to fix that violation. Alternatively the user can also double click on the violation to get help.
