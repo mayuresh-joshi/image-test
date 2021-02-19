@@ -18,7 +18,7 @@ To import the code zip file in Eclipse IDE:-
 
 File -> Import -> General -> Existing Projects into Workspace -> Next
 
-Select Root directory (browse the unzipped file)- Search for nested projects
+Select Root directory (browse the unzipped prooject folder)
 
 Finish
 
@@ -41,11 +41,13 @@ Official Website to download chrome driver- https://chromedriver.chromium.org/do
 2. ExportAllPath - copy paste the path location of the folder where all the reports should be saved. 
 
  e.g. ExportAllPath=C:\\\\Generated Reports\\\\Test
+
 Here, Test is the folder name where all the reports will be saved. 
 
 3. ExportOnePath - copy paste the path location of the folder where any report should be saved.
 
  e.g. ExportOnePath=C:\\\\Generated Reports\\\\Test
+
 Here, Test is the folder name where the specific report will be saved.
 
 NOTE: Use Double Slashes ( \\\\ ) instead of Single Slash ( \\ ) while setting paths and make sure the paths exist on the file system.
