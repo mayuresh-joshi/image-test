@@ -13,32 +13,39 @@ Stable internet connection
 
 ##### IMPORTING PROJECT:
 Unzip the code file.
-To import the code zip file in Eclipse IDE-:
+
+To import the code zip file in Eclipse IDE:-
+
 File -> Import -> General -> Existing Projects into Workspace -> Next
+
 Select Root directory (browse the unzipped file)- Search for nested projects
+
 Finish
 
 ##### SETUP CONFIGURATIONS:
 After importing the project in Eclipse IDE, setup the project as follows-
+
 Wait till all the dependencies are loaded in the project, stable internet connection is required. 
+
 Open config.properties file:
 On left-side Package Explorer-> selenium-axe -> src/main/resources -> config.properties
+
 In config.properties : 
 A chromedriver should be downloaded for the specific chrome browser version. If you are using Chrome version 88, please download ChromeDriver 88.0.4324.
 Official Website to download chrome driver- https://chromedriver.chromium.org/downloads 
 
 1. pathToChromeDriver - copy paste the path location of the chromedriver that is installed on the machine 
 
-e.g. pathToChromeDriver=C:\\\\chromedriver.exe
+ e.g. pathToChromeDriver=C:\\\\chromedriver.exe
 
 2. ExportAllPath - copy paste the path location of the folder where all the reports should be saved. 
 
-e.g. ExportAllPath=C:\\\\Generated Reports\\\\Test
+ e.g. ExportAllPath=C:\\\\Generated Reports\\\\Test
 Here, Test is the folder name where all the reports will be saved. 
 
 3. ExportOnePath - copy paste the path location of the folder where any report should be saved.
 
-e.g. ExportOnePath=C:\\\\Generated Reports\\\\Test
+ e.g. ExportOnePath=C:\\\\Generated Reports\\\\Test
 Here, Test is the folder name where the specific report will be saved.
 
 NOTE: Use Double Slashes ( \\\\ ) instead of Single Slash ( \\ ) while setting paths and make sure the paths exist on the file system.
@@ -46,7 +53,9 @@ These paths will be considered as default path while saving the reports, this ca
 
 ##### EXECUTION:
 To run the application:
+
 On left-side Package Explorer-> selenium-axe -> src/main/java -> gui -> ApplicationRunner.java
+
 Run “ApplicationRunner.java” file using the green play button provided by Eclipse IDE else right click and Run as -> Java Application.  
 
 ##### WORKING OF THE TOOL:
