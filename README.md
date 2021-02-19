@@ -112,7 +112,8 @@ The user can analyze a specific uncrawled URL using the Custom Test option. Clic
 
 12. Visualization
  <img src='./javautility1screenshots/visualization.png'> 
-The user is able to see the visualization of the violations. Click the "Visualize" button. A popup will appear where user can select any model like Pie Chart, Donut Chart, Bar Graph, Line Graph and Multi Model. After selection click "Show". The desired visualization will be displayed. 
+The user is able to see the visualization of the violations. Click the "Visualize" button. A popup will appear where user can select any model like Pie Chart, Donut Chart, Bar Graph, Line Graph and Multi Model. After selection click "Show". The desired visualization will be displayed.
+
 Pie Chart
  <img src='./javautility1screenshots/piechart.png'> 
 Donut Chart
