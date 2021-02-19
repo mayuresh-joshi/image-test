@@ -4,8 +4,11 @@ ADAsure Accessibility Audit Tool  is a GUI tool developed in Java, using technol
 
 ##### PRE-REQUISITE:
 Eclipse IDE
+
 Java Development Kit 8 or above 
+
 Chrome driver (depends on the chrome browser version)
+
 Stable internet connection
 
 ##### IMPORTING PROJECT:
