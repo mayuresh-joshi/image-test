@@ -1,8 +1,8 @@
 # ADAsure Accessibility Audit Tool 
-##### INTRODUCTION:
-ADAsure Accessibility Audit Tool  is a GUI tool developed in Java, using technologies like Selenium for Automation of testing and Axe-Core APIs for performing accessibility tests on webpages. It provides a simple and intuitive user interface to assist the user in testing and generating reports. These report helps the user to fix the violation of any desired website. The tool aids developers in identifying accessibility problems and features for WCAG 2.0, WCAG 2.1, Section 508 and AXE best standards. The frontend of this tool is developed using Java Swing in Eclipse IDE.
+#### INTRODUCTION:
+ADAsure Accessibility Audit Tool  is a GUI tool developed in Java, using technologies like Selenium for Automation of testing and Axe-Core APIs for performing accessibility tests on webpages. It provides a simple and intuitive user interface to assist the user in testing and generating reports. These report helps the user to fix the violation of any desired website. The tool aids developers in identifying accessibility problems and supports WCAG 2.0, WCAG 2.1, Section 508 and AXE best standards. The frontend of this tool is developed using Java Swing in Eclipse IDE.
 
-##### PRE-REQUISITE:
+#### PRE-REQUISITE:
 Eclipse IDE
 
 Java Development Kit 8 or above 
@@ -11,7 +11,7 @@ Chrome driver (depends on the chrome browser version)
 
 Stable internet connection
 
-##### IMPORTING PROJECT:
+#### IMPORTING PROJECT:
 Unzip the code file.
 
 To import the code zip file in Eclipse IDE:-
@@ -22,7 +22,7 @@ Select Root directory (browse the unzipped prooject folder)
 
 Finish
 
-##### SETUP CONFIGURATIONS:
+#### SETUP CONFIGURATIONS:
 After importing the project in Eclipse IDE, setup the project as follows-
 
 Wait till all the dependencies are loaded in the project, stable internet connection is required. 
@@ -53,14 +53,14 @@ Here, Test is the folder name where the specific report will be saved.
 NOTE: Use Double Slashes ( \\\\ ) instead of Single Slash ( \\ ) while setting paths and make sure the paths exist on the file system.
 These paths will be considered as default path while saving the reports, this can be changed at runtime as well. 
 
-##### EXECUTION:
+#### EXECUTION:
 To run the application:
 
 On left-side Package Explorer-> selenium-axe -> src/main/java -> gui -> ApplicationRunner.java
 
 Run “ApplicationRunner.java” file using the green play button provided by Eclipse IDE else right click and Run as -> Java Application.  
 
-##### WORKING OF THE TOOL:
+#### WORKING OF THE TOOL:
 1. The user enters a Base URL i.e. the website URL that is to be audited. 
 2. The website is crawled, first looking up for a sitemap.xml of the website else uses the crawler algorithm to list all the URLs present in the website.
 3. Any URL can be selected for analyzing. The selected URL can violate some rules defined by Web Content Accessibility Guidelines. These violations are listed down in this tool.
@@ -70,8 +70,8 @@ Run “ApplicationRunner.java” file using the green play button provided by Ec
 7. The user is able to view the visualizations of the violations.
 
 
-##### HOW TO USE THE TOOL:
-###### Screenshots:
+#### HOW TO USE THE TOOL:
+##### Screenshots:
 1. Main Page 
  <img src='./javautility1screenshots/mainpage.png'>
 This is the main page of the tool. The user is able to view this page after running the application. 
